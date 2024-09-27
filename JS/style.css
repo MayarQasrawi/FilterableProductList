@@ -1,0 +1,104 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     
+     font-family:'Times New Roman', Times, serif;
+}
+body{
+     background-color:black;
+     min-height: 100vh;
+     
+}
+.header{
+     text-align: center;
+     margin: auto;
+     color: white;
+}
+.continar{
+     position: relative;
+     padding: 40px;
+     margin: 20 auto;
+     width: 100%;
+     
+     
+}
+button{ 
+
+     background-color: white;
+     border: none;
+     color: black;
+     padding: 16px 32px;
+     text-align: center;
+     font-size: 16px;
+     margin: 4px 2px;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     border-radius: 8cqb ;
+}
+.filtterButton {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     
+     
+}
+button:hover{
+     background-color: black;
+     color: white;
+     border : 2px solid  white;
+}
+
+button.active{
+     background-color: black;
+     color: white; 
+     border : 2px solid  white;
+}
+
+
+.filterable_card{
+     display:flex;
+     gap: 10px;
+     flex-wrap: wrap;
+     text-align: center;
+     
+       
+    
+}
+
+
+.card{
+     margin: 4px 10px;
+     flex: 0 0 auto;
+     width: 220px;
+     padding: 2px;
+     background-color: white;
+     border-radius: 8px;
+     cursor: pointer;
+    
+}
+.card .hide{
+    display: none;
+}
+.card img{
+     
+     width: 200px;
+     height: 210px;
+     object-fit: cover;
+     border-radius: 8px;
+}
+
+
+.card_body .card_title{
+     font-size: 20px;
+}
+
+.card_body .card_text{
+    margin-top: 7px;
+    font-size: 14px;
+    
+}
+.hide {
+     display: none;
+ }
+ 

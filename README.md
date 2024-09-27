@@ -15,6 +15,6 @@ This project aims to create a dynamic and interactive web page that displays a f
 - HTML: Structures the page with headings, filter section, and product display area.
 - CSS: Applies styling for layout, typography, colors, and filter button appearance.
 - JavaScript:
-1- Defines an array of product objects with name, category, and price properties.
-2- Dynamically generates HTML elements for each product and appends them to the display area.
-3-Implements filtering logic to show products based on selected categories.
+* Defines an array of product objects with name, category, and price properties.
+* Dynamically generates HTML elements for each product and appends them to the display area.
+* Implements filtering logic to show products based on selected categories.

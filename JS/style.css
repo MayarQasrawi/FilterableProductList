@@ -77,9 +77,7 @@ button.active{
      cursor: pointer;
     
 }
-.card .hide{
-    display: none;
-}
+
 .card img{
      
      width: 200px;
